@@ -5,6 +5,7 @@ plugins/
 __pycache__/
 *.pyc
 *.log
+*.xlsx
 # Archivos específicos de Docker que no necesitan ser rastreados
 .dockerignore
 **/.env

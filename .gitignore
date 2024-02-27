@@ -1,0 +1,12 @@
+# Ignorar directorios que contienen datos generados por Airflow y Docker
+logs/
+dags/
+plugins/
+__pycache__/
+*.pyc
+*.log
+# Archivos específicos de Docker que no necesitan ser rastreados
+.dockerignore
+**/.env
+# Directorio de datos de PostgreSQL (si lo usas localmente)
+postgres-data/

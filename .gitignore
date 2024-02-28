@@ -11,3 +11,4 @@ __pycache__/
 **/.env
 # Directorio de datos de PostgreSQL (si lo usas localmente)
 postgres-data/
+.env
